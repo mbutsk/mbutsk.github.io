@@ -94,7 +94,7 @@ nav {
     text-align: center;
 }
 
-@media(max-width: 548px) {
+@media(max-width: 364px) {
     header {
         display: none;
     }
