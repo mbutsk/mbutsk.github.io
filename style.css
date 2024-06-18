@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Geometric"; 
+    src: url("fonts/geometric.woff2") format("woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+* {
+    margin: 0;
+}
+
+.bg1 {
+    background-image: linear-gradient(
+        35deg,
+        #f1b900,
+        #003ce0
+    );
+    background-image: repeating-linear-gradient(35deg, #000000, #000000 15px, #ffffff00 15px, #ffffff00 25px),
+    linear-gradient(35deg, #241e00, #06001f);
+    
+    height: 100vh;
+}
+
+.title {
+
+    color: #FFFFFF;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Geometric';
+    padding-top: 150px;
+}
+
+#logo {
+    line-height: 50px;
+    padding-left: 20px;
+    background-clip: text;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Geometric';
+}
+
+#logo:hover {
+    -webkit-text-fill-color: transparent; 
+    background-image: linear-gradient(#ffea00, #e85505);
+}
+
+#nav-links li {
+    list-style: none;
+}
+
+#nav-links li a {
+    text-decoration: none;
+    color: white;
+    background-clip: text;
+    font-size: 25px;
+    font-family: 'League Spartan';
+}
+
+#nav-links li a:hover {
+    -webkit-text-fill-color: transparent; 
+    background-image: linear-gradient(#ffea00, #e85505);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.subtitle {
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Geometric';
+}
+
+#too-small-screen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Baloo Da 2';
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media(max-width: 548px) {
+    header {
+        display: none;
+    }
+    #too-small-screen {
+        display: block;
+    }
+}
+
+.glow {
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-image: linear-gradient(50deg, #ffea00, #e85505);
+}
+
+.lang {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 50px 20px;
+    font-family: 'Baloo Da 2';
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+
+  }
+
+#languages {
+    text-align: center;
+}
+
+.logo-near-text {
+    height: 25px;
+    transform: translateY(8px)
+}
+
+.top-div {
+    margin-bottom: -75px;
+}
+
+.bottom-div {
+    margin-top: -75x;
+}
+
+.case-group {
+    text-align: center;
+}
+
+.social {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 50px 20px;
+    font-family: 'Baloo Da 2';
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .5s;
+    white-space: pre;
+  }
+
+.social:hover {
+    background: #ff9900;
+    box-shadow: 0 15px 20px #e86b05;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.project {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 50px 20px;
+    font-family: 'Baloo Da 2';
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .5s;
+    white-space: pre;
+  }
+
+.project:hover {
+    background: #ff9900;
+    box-shadow: 0 15px 20px #e86b05;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.large-case {
+    width: 180px;
+  }
