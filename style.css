@@ -16,7 +16,7 @@
         #003ce0
     );
     background-image: repeating-linear-gradient(35deg, #000000, #000000 15px, #ffffff00 15px, #ffffff00 25px),
-    linear-gradient(35deg, #241e00, #06001f);
+    linear-gradient(35deg, #211b00, #050018);
     
     height: 100vh;
 }
@@ -109,24 +109,6 @@ nav {
     background-image: linear-gradient(50deg, #ffea00, #e85505);
 }
 
-.lang {
-    text-decoration: none;
-    display: inline-block;
-    width: 140px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 45px;
-    margin: 50px 20px;
-    font-family: 'Baloo Da 2';
-    font-size: 15px;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: 600;
-    color: #524f4e;
-    background: white;
-
-  }
-
 #languages {
     text-align: center;
 }
@@ -148,7 +130,7 @@ nav {
     text-align: center;
 }
 
-.social {
+.social, .project, .lang {
     text-decoration: none;
     display: inline-block;
     width: 140px;
@@ -160,43 +142,16 @@ nav {
     font-size: 15px;
     text-align: center;
     font-weight: 600;
-    color: #524f4e;
-    background: white;
+    color: white;
+    background: rgb(39, 39, 39);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .5s;
     white-space: pre;
   }
 
-.social:hover {
+.social:hover, .project:hover {
     background: #ff9900;
     box-shadow: 0 15px 20px #e86b05;
-    color: white;
-    transform: translateY(-7px);
-}
-
-.project {
-    text-decoration: none;
-    display: inline-block;
-    width: 140px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 45px;
-    margin: 50px 20px;
-    font-family: 'Baloo Da 2';
-    font-size: 15px;
-    text-align: center;
-    font-weight: 600;
-    color: #524f4e;
-    background: white;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
-    transition: .5s;
-    white-space: pre;
-  }
-
-.project:hover {
-    background: #ff9900;
-    box-shadow: 0 15px 20px #e86b05;
-    color: white;
     transform: translateY(-7px);
 }
 
