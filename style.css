@@ -20,6 +20,13 @@
     font-family: 'Geometric';
 }
 
+.minitext {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Jura';
+}
+
 .subtitle {
     padding-top: 30px;
     color: #FFFFFF;
